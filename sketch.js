@@ -12,8 +12,8 @@ function draw() {
 for(var j=0;j<(height/50);j++){
   for(var i=0;i<(width/50);i++)
   {
-  ellipse(25+(i*50),25+(j*50),50+mouseX/10)
-  stroke(255,0,0)
+  ellipse(25+(i*50),25+(j*50),50+mouseX/10)//X軸會隨著座標移動
+  stroke(255,0,0)//線條顏色
   rect(25+(i*50),25+(j*50),50)
   stroke(255)
   ellipse(50+(i*50),50+(j*50),25+mouseY/5)
